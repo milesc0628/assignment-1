@@ -68,9 +68,13 @@ p{
 #quote{
     quotes: "«""»"
 }
-ol{
-   line-height: 1.5;
-   
+ol li{
+    margin-bottom: 1em;
+}
+ol li .paragraph-text{
+    display: block;
+    margin-top: 0.5em;
+    text-align: justify;
 }
 #gallery img{
     width:100%;

@@ -1,0 +1,90 @@
+body{
+    font-family: "Rosarivo", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    margin:0;
+    padding:0;
+}
+.wrapper{
+    background: url(images/albumlogo.png), #966de6; 
+    background-position: top right;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    padding: 5% 10%;
+}
+hr{
+    border-color: black;
+}
+nav ul{
+    list-style: none;
+}
+a{
+    color: #0815b3;
+}
+a:hover{
+    color:#0adeca;
+    text-decoration: none;
+}
+nav ul li{
+    display: inline-block;
+    padding: 2rem;
+    border: solid 1px black;
+    width: 120px;
+    text-align: center;
+}
+nav ul a{
+    color:#3e0aa5;
+}
+nav ul li:hover{
+    background-color: #8150e5;
+}
+nav ul a:hover{
+     color:#8ff92b;
+}
+h1{
+    font-family: "Rosarivo", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 48px;
+}
+h2{
+    font-family: "Rosarivo", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 1.5;
+}
+h3{
+    font-family: "Rosarivo", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 0.1;
+}
+p{
+    text-indent: 50px;
+}
+.paragraph{
+    text-decoration: underline;
+}
+#quote{
+    quotes: "«""»"
+}
+ol{
+   font-weight: bold;
+}
+ol p{
+    font-weight: normal;
+}
+#gallery img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+#gallery figure{
+    width:500px;
+    height:300px;
+    display: inline-block;
+}

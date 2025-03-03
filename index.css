@@ -73,10 +73,7 @@ p{
     quotes: "«""»"
 }
 ol{
-   font-weight: bold;
-}
-ol p{
-    font-weight: normal;
+   line-height: 1;
 }
 #gallery img{
     width:100%;

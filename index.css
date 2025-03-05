@@ -25,6 +25,7 @@ a{
 }
 a:hover{
     color:#0adeca;
+    text-decoration-line: underline;
 }
 nav ul li{
     display: inline-block;

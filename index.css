@@ -21,10 +21,10 @@ nav ul{
 }
 a{
     color: #0815b3;
+    text-decoration: none;
 }
 a:hover{
     color:#0adeca;
-    text-decoration: none;
 }
 nav ul li{
     display: inline-block;
@@ -61,6 +61,7 @@ h3{
 }
 p{
     text-indent: 50px;
+    line-height: 1.4;
 }
 .paragraph{
     text-decoration: underline;
